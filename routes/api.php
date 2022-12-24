@@ -18,7 +18,7 @@ use App\Http\Controllers\Api\TransactionController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+// User Route 
 Route::post('login', [AuthController::class, 'login']);
 Route::post('register', [AuthController::class, 'register']);
 
